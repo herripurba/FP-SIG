@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+nav img{
+    height: 50px;
+}
+nav a{
+    font-family: 'Dancing Script', cursive;
+}
+#map { 
+    height: 90vh;
+
+    /* width: 100vw; */
+}
+
+.mapboxgl-popup {
+    max-width: 400px;
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
