@@ -739,4 +739,12 @@ map.on('load', () => {
 });
 
 map.addControl(new mapboxgl.NavigationControl());
+
+map.addControl(new mapboxgl.NavigationControl());
+    map.addControl(
+        new MapboxDirections({
+        accessToken: mapboxgl.accessToken
+        }),
+        'top-left'
+        );
 map.addControl(new mapboxgl.FullscreenControl());
